@@ -1,0 +1,148 @@
+
+@media all
+{
+body {
+    min-height: 100%;
+}
+
+body::after {
+    background-image: url("Background/background.jpg");
+/*    https://www.bing.com/images/search?view=detailV2&ccid=9oX4VXzy&id=05D2EA2B30323D467DCEDED592C444E1E807D3A1&thid=OIP.9oX4VXzy7Nky8vG0_wBy6wHaET&mediaurl=https%3a%2f%2fimg.freepik.com%2ffree-photo%2fvarious-colorful-stationery-school-office-pink-background-with-copyspace_127032-1753.jpg%3fsize%3d626%26ext%3djpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.f685f8557cf2ecd932f2f1b4ff0072eb%3frik%3dodMH6OFExJLV3g%26pid%3dImgRaw%26r%3d0&exph=364&expw=626&q=Pink+Background+Calculator&simid=608002421044693646&FORM=IRPRST&ck=B0EF8C65852276AEFE5026FC51BB0DA8&selectedIndex=177&ajaxhist=0&ajaxserp=0*/
+    position: fixed;
+    content: "";
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: .8;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+header {
+    vertical-align: auto;
+    font-size: 2.5em;
+    text-align: center;
+    padding-top: 35px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.pageHeader {
+    border-radius: 15px 15px;
+    background-color: #2e2e26;
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 2%;
+    color: aliceblue;
+    height: 100px;
+}
+
+.headerText {
+    vertical-align: auto;
+    text-align: center;
+    padding-top: 35px;
+    font-family: 'Dancing Script', cursive;
+    color: cornsilk;
+}
+
+.main-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1024px;
+    height: 1024px;
+    margin: auto auto 100px;
+    border-radius: 50px 50px;
+    background: #fff url(Background/border.png);
+    /*https://www.bing.com/images/search?view=detailV2&ccid=yQjHClgg&id=7B4AE8938E1E80D8D7CD4E976392F1C082D680BC&thid=OIP.yQjHClgg9QbiOcHdxadD9AHaHa&mediaurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.c908c70a5820f506e239c1ddc5a743f4%3frik%3dvIDWgsDxkmOXTg%26riu%3dhttp%253a%252f%252fclipart-library.com%252fimages_k%252ftransparent-page-borders%252ftransparent-page-borders-14.png%26ehk%3dsmT54quUUk417tvvy2X8SgeY1hA7AK%252bl9%252bUxViW4fDo%253d%26risl%3d%26pid%3dImgRaw&exph=1024&expw=1024&q=Transparent+Page+Borders+blue+1024*1024&simid=608035535218085189&FORM=IRPRST&ck=92D12EE8CCA19EE3DEB17C84C525FAD9&selectedIndex=56&qft=+filterui%3aimagesize-custom_1024_1024&ajaxhist=0&ajaxserp=0}*/
+}
+.tableBody {
+    height: 500px;
+}
+.button {
+    background-color: #90C7C3;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 17px;
+    font-variant: all-small-caps;
+    font-weight: bold;
+    padding: 8px;
+    margin-left: 1%;
+    width: 10%;
+}
+.AgeButton {
+    background-color: #90C7C3;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 17px;
+    font-variant: all-small-caps;
+    font-weight: bold;
+    padding: 8px;
+    margin-left: 1%;
+    width: 80%;
+}
+h1 {
+    text-align: center;
+    margin: 12px 0;
+    color: rgb(189, 183, 107);
+}
+
+h3 {
+    text-align: center;
+    margin: 12px 0;
+    color: rgb(189, 183, 107);
+}
+
+
+.searchInput {
+    border-radius: 8px;
+    color: rgba(23, 27, 26, 0.8);
+    font-size: 25px;
+    padding: 10px;
+    height: 20px;
+    width: 300px;
+    border-color: rgba(92, 89, 89, 0.19);
+    border-width: 4px;
+}
+
+.searchInput:focus {
+    box-decoration-break: clone;
+    border: black;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.tableHeading {
+    font-family: 'Anton', sans-serif;
+    font-size: large;
+}
+
+footer {
+    font-family: 'Roboto';
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #2e2e26;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    line-height: 5px;
+    padding: 5px;
+    height: 60px;
+}
+
+
+#summary {
+    height: 200px;
+    border: #000000 dashed thick;
+    border-radius: 25px;
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 300;
+    width: 645px;
+}
+
+}
